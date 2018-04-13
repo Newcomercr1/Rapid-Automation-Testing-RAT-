@@ -1,0 +1,58 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Title of your scenario",
+        "description": "",
+        "id": "title-of-your-feature;title-of-your-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13628422685,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "nav to demoqa",
+            "match": {
+              "location": "Steps.nav_to_demoqa()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14299440749,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user fills out info and submits it",
+            "match": {
+              "location": "Steps.user_fills_out_info_and_submits_it()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 77373,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "window should be closed",
+            "match": {
+              "location": "Steps.window_should_be_closed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "src/test/resource/myFeature.feature"
+  }
+]
